@@ -119,3 +119,4 @@ nextButton.addEventListener("click", ()=>{
 });
 
 startQuiz();
+
