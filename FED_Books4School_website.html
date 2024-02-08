@@ -3,46 +3,784 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-------- font awesome cdn link --------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- swipper cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header class="header">
       <a href="FED_Books4School_website.html" class="logo">Logo</a>
       <nav class="navbar">
         <a href="FED_Books4School_website.html">Home</a>
-        <a href="schools.html">Schools</a>
         <a href="shop.html">Shop</a>
+        <a href="#">Game</a>
         <a href="about.html">About</a>
-        <a href="#">Contact</a>
+        <a href="profile.html">Proflie</a>
       </nav>
     </header>
 
-    <section class="login-section">
-      <div class="wrapper">
-        <form action="">
-          <h1>Login</h1>
-          <div class="input-box">
-            <input type="text" placeholder="Username" required />
-            <i class="bx bxs-user"></i>
-          </div>
-          <div class="input-box">
-            <input type="password" placeholder="Password" required />
-            <i class="bx bxs-lock-alt"></i>
+    <!-------- home section start ----------->
+
+    <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <h3>Up to 50% offers!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            sapiente eos quisquam voluptatibus, cum quod.
+          </p>
+          <a href="" class="btn1">Shop Now</a>
+        </div>
+
+        <div class="swiper books-list">
+          <div class="swiper-wrapper">
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlChemistryYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlBiologyYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlPhysicsYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlEnglishYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlMathsYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlAdditionalMathsYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlChineseYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlHigherChineseYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlGeographyElectiveYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlHistoryElectiveYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlPOAYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlHistoryYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlScienceBiologyYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlScienceChemistryYearly2023.jpg" alt=""
+            /></a>
+            <a href="" class="swiper-slide"
+              ><img src="Shop_IMGs/OlvlSciencePhysicsYearly2023.jpg" alt=""
+            /></a>
           </div>
 
-          <div class="remember-forgot">
-            <label><input type="checkbox" />Remember me</label>
-            <a href="#">Forgot password?</a>
-          </div>
-
-          <button type="submit" class="btn">Login</button>
-
-          <div class="register-link">
-            <p>Don't have an account? <a href="#">Register</a></p>
-          </div>
-        </form>
+          <img class="stand" src="Shop_IMGs/stand.png" alt="" />
+        </div>
       </div>
     </section>
+
+    <!-------- featured section start  ----------->
+
+    <section class="featured" id="featured">
+      <div class="heading"><span>featured books</span></div>
+
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlChemistryYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level Chemistry(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlBiologyYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level Biology(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlPhysicsYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level Physic(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlEnglishYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level English(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlMathsYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level Mathematics(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlAdditionalMathsYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level Additional Mathematics(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlHistoryYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level History(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlHistoryElectiveYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level History Elective(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlGeographyElectiveYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level Geography Elective(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlScienceChemistryYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level Science Chemistry(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlScienceBiologyYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level Science Biology(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlSciencePhysicsYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level Science Physics(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlPOAYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level Principals of Accounting(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlChineseYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level Chinese(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="" class="fas fa-search"></a>
+              <a href="" class="fas fa-heart"></a>
+              <a href="" class="fas fa-eye"></a>
+            </div>
+
+            <div class="image">
+              <img src="Shop_IMGs/OlvlHigherChineseYearly2023.jpg" alt="" />
+            </div>
+
+            <div class="content">
+              <h3>O-level Higher Chinese(TYS) book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <a href="" class="btn1">add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-------- news letter section start  ----------->
+
+    <section class="newletter">
+      <form action="">
+        <h3>Join our mailing list!</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="submit" value="subscribe" class="btn1" />
+      </form>
+    </section>
+
+    <!-------- arrivals section start  ----------->
+
+    <section class="arrivals" id="arrivals">
+      <div class="heading"><span>new arrivals</span></div>
+      <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+          <a href="" class="swiper-slide box">
+            <div class="image">
+              <img src="Shop_IMGs/a-math.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Additional Maths a</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="swiper-slide box">
+            <div class="image">
+              <img src="Shop_IMGs/a-math2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Additional Math b</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="swiper-slide box">
+            <div class="image">
+              <img src="Shop_IMGs/chemisrty_textbook.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Chemistry Textbook 1</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="swiper-slide box">
+            <div class="image">
+              <img src="Shop_IMGs/chemisrty_chemistryTEXTBOOK.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>Chemistry Textbook 2</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="swiper-slide box">
+            <div class="image">
+              <img src="Shop_IMGs/biology_textbook.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Biology Textbook</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+          <a href="" class="swiper-slide box">
+            <div class="image">
+              <img src="Shop_IMGs/physics_textbook.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Physics Textbook</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="swiper-slide box">
+            <div class="image">
+              <img src="Shop_IMGs/discovering_maths.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Discovering Maths a</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="swiper-slide box">
+            <div class="image">
+              <img src="Shop_IMGs/discovering_maths2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Discovering Maths b</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="swiper-slide box">
+            <div class="image">
+              <img src="Shop_IMGs/socialstudies.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Social Studies</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+
+          <a href="" class="swiper-slide box">
+            <div class="image">
+              <img
+                src="Shop_IMGs/Secondary-4-English-Comprehension-assessment-book.jpg"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <h3>English Comprehension Book</h3>
+              <div class="price">$15.99 <span>$20.99</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-------- deal section start  ----------->
+
+    <section class="deal">
+      <div class="content">
+        <h3>deal of the day</h3>
+        <h1>Up to 50% offers</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, vero.
+          Voluptatibus voluptates inventore nulla vel.
+        </p>
+        <a href="" class="btn1">shop now</a>
+      </div>
+
+      <div class="image">
+        <img src="Shop_IMGs/school_images.png" alt="" />
+      </div>
+    </section>
+
+    <!-------- Login Section ----------->
+    <section class="container forms">
+      <div class="form login">
+        <div class="form-content">
+          <header>Login</header>
+          <form action="#">
+            <!-- Email box -->
+            <div class="field input-field">
+              <label for="contact-email"></label>
+              <input
+                type="email"
+                id="contact-email"
+                placeholder="Email"
+                class="input"
+              />
+            </div>
+            <!-- Password box -->
+            <div class="field input-field">
+              <label for="contact-text"></label>
+              <input
+                type="password"
+                id="contact-text"
+                placeholder="Password"
+                class="password"
+              />
+              <i class="bx bx-hide eye-icon"></i>
+            </div>
+            <!-- Forgot Password -->
+            <div class="form-link">
+              <a href="#" class="forgot-pass">Forgot password?</a>
+            </div>
+            <!-- Login Button -->
+            <div class="field button-field">
+              <button type="submit" id="contact-submit">Login</button>
+            </div>
+          </form>
+          <div class="form-link">
+            <span
+              >Don't have an account?
+              <a href="#" class="link signup-link">Signup</a></span
+            >
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="media-options">
+          <a href="#" class="field facebook">
+            <i class="bx bxl-facebook facebook-icon"></i>
+            <span>Login with Facebook</span>
+          </a>
+        </div>
+        <div class="media-options">
+          <a href="#" class="field google">
+            <img src="IMGs/google_logo.png" alt="" class="google-img" />
+            <span>Login with Google</span>
+          </a>
+        </div>
+      </div>
+      <!-- Signup Form -->
+      <div class="form signup">
+        <div class="form-content">
+          <header>Signup</header>
+          <form action="#">
+            <!-- Name box -->
+            <div class="field input-field">
+              <label for="signup-name"></label>
+              <input
+                type="name"
+                id="signup-name"
+                placeholder="Name"
+                class="input"
+              />
+            </div>
+            <!-- Email box -->
+            <div class="field input-field">
+              <label for="signup-email"></label>
+              <input
+                type="email"
+                id="signup-email"
+                placeholder="Email"
+                class="input"
+              />
+            </div>
+            <!-- Password box -->
+            <div class="field input-field">
+              <input
+                type="password"
+                placeholder="Create password"
+                class="password"
+              />
+            </div>
+            <!-- Confirmed Password box -->
+            <div class="field input-field">
+              <label for="signup-password"></label>
+              <input
+                type="password"
+                id="signup-password"
+                placeholder="Confirm password"
+                class="password"
+              />
+              <i class="bx bx-hide eye-icon"></i>
+            </div>
+            <!-- Submit box -->
+            <div class="field button-field">
+              <button type="submit" id="signup-submit">Signup</button>
+            </div>
+          </form>
+          <div class="form-link">
+            <span
+              >Already have an account?
+              <a href="#" class="link login-link">Login</a></span
+            >
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="media-options">
+          <a href="#" class="field facebook">
+            <i class="bx bxl-facebook facebook-icon"></i>
+            <span>Login with Facebook</span>
+          </a>
+        </div>
+        <div class="media-options">
+          <a href="#" class="field google">
+            <img src="IMGs/google_logo.png" alt="" class="google-img" />
+            <span>Login with Google</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--- Footer Section --->
+    <section class="footer">
+      <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Game</a>
+        <a href="#">About</a>
+        <a href="#">Profile</a>
+      </div>
+      <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form>
+          <input
+            type="email"
+            placeholder="Your Email Address"
+            class="footer-input"
+            required
+          />
+          <br />
+          <button type="submit" class="footer-btn">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+      <div class="col-3">
+        <h3>CONTACT</h3>
+        <p>123, Orchard Road, 743020<br />Singapore, IN</p>
+        <div class="social-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </section>
+
+    <!---- swiper cdn link ---------->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/homepage.js"></script>
   </body>
 </html>
