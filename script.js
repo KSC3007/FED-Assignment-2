@@ -5,7 +5,7 @@ const questions =[
             {text: "Shark", correct: false},
             {text: "Blue whale", correct: true},
             {text: "Elephant", correct: false},
-            {text: "Giraffle", correct: false},
+            {text: "Giraffe", correct: false},
         ]
     },
     {
@@ -13,8 +13,8 @@ const questions =[
         answers: [
             {text: "Vatican city", correct: true},
             {text: "Bhutan", correct: false},
-            {text: "Nepal", correct: false},
-            {text: "Shri Lanka", correct: false},
+            {text: "Nauru", correct: false},
+            {text: "Monaco", correct: false},
         ]
     },
     {
@@ -23,15 +23,15 @@ const questions =[
             {text: "Kalahari", correct: false},
             {text: "Gobi", correct: false},
             {text: "Sahara", correct: false},
-            {text: "Antarctica", correct: true},
+            {text: "Antarctic", correct: true},
         ]
     },
     {
         question: "Which is the smallest continent in the world?",
         answers: [
             {text: "Asia", correct: false},
-            {text: "Australia", correct: false},
-            {text: "Arctic", correct: true},
+            {text: "Australia", correct: true},
+            {text: "South America", correct: false},
             {text: "Africa", correct: false},
         ]
     },
