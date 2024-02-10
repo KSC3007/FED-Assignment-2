@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap');
+
+:root{
+    --blue:#477eff;
+    --dark-color:#0c53f9;
+    --black:#444;
+    --light-color:#666;
+    --border:0.1rem solid rgba(0,0,0,0.1);
+    --border-hover:0.1rem solid var(--black);
+    --box-shadow:0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    transition: width none;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.canvas {
+    box-shadow: black 20px 10px 50px;
+}
+
+.reset-button{
+    background-color: #666;
+    color: antiquewhite;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: auto;
+}
+
+.game-info{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-information{
+    width: 600px;
+    height: auto;
+    border: 2px solid #444;
+    padding: 20px; 
+}
+
+.game-information h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.game-information p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/*   Footer   */
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef; 
+    display: flex;
+}
+
+.footer div{
+    text-align: center;
+}
+
+.col-2{
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a{
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.col-3 p{
+    font-size: 20px;
+}
+
+.footer-input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+.footer-btn{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-btn:hover{
+    background: #efefef;
+    color: #333;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+

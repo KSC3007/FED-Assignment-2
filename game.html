@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="css/snake.css" />
+
+    <!-------- font awesome cdn link --------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="FED_Books4School_website.html" class="logo">Books4School</a>
+      <nav class="navbar">
+        <a href="FED_Books4School_website.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="game.html">Game</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <section class="game-container">
+      <div class="snake-game">
+        <h1>Snake</h1>
+        <!-- Corrected canvas ID -->
+        <canvas id="game" width="400" height="400"></canvas>
+      </div>
+      <!-- Reset button -->
+      <button id="reset-button" class="reset-button">Reset</button>
+    </section>
+
+    <section class="game-info">
+      <div class="game-information">
+        <h1>How to Play</h1>
+        <p>
+          Use WASD to move around and eat the red 'apples'!
+          <br />
+          Score more points to redeem when checking out at our store!!
+        </p>
+      </div>
+    </section>
+
+    <!--- Footer Section --->
+    <section class="footer">
+      <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="FED_Books4School_website.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="game.html">Game</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form>
+          <input
+            type="email"
+            placeholder="Your Email Address"
+            class="footer-input"
+            required
+          />
+          <br />
+          <button type="submit" class="footer-btn">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+      <div class="col-3">
+        <h3>CONTACT</h3>
+        <p>123, Orchard Road, 743020<br />Singapore, IN</p>
+        <div class="social-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Separate script tag for JavaScript -->
+    <script src="js/snake.js"></script>
+  </body>
+</html>

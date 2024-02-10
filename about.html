@@ -3,8 +3,124 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
+
+    <!-------- font awesome cdn link --------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <a href="FED_Books4School_website.html" class="logo">Books4School</a>
+      <nav class="navbar">
+        <a href="FED_Books4School_website.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="game.html">Game</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <section class="info-section">
+      <div class="info-div">
+        <h1>Welcome to Books4School!</h1>
+        <p>
+          Welcome to Books4School, your premier destination for academic
+          success!<br />We specialize in providing a wide range of assessment
+          books tailored to meet the needs of students at every level. From
+          primary to secondary education, our bookstore offers a comprehensive
+          selection of practice materials designed to enhance learning and boost
+          performance in exams. Whether you're preparing for standardized tests,
+          assessments, or simply seeking extra practice, our expertly curated
+          collection ensures that you have the resources you need to excel.
+          Visit us today and take the next step towards academic excellence!
+        </p>
+      </div>
+    </section>
+
+    <section class="img-section">
+      <div class="booksimg">
+        <img src="Shop_IMGs/books.jpg" alt="Image of Books" />
+      </div>
+      <div class="imginfo">
+        <h2>Books4School</h2>
+        <p>
+          Inspired by a passion for education and a commitment to supporting
+          students. Recognizing the need for quality assessment materials in the
+          community, we embarked on a mission to create a specialized bookstore
+          offering a wide range of practice materials for students of all
+          academic levels. With perseverance and support from you guys, we hope
+          our bookstore will guide students all over Singapore.
+        </p>
+      </div>
+    </section>
+    <div class="quiz-info">
+      <h2>Take this general questions quiz to earn points to be redeemed!</h2>
+    </div>
+    <section class="ngeeanninfo">
+      <div class="app">
+        <h1>Quiz!</h1>
+        <div class="quiz">
+          <h2 id="question">Question goes here</h2>
+          <div id="answer-buttons">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+          </div>
+          <button id="next-btn">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <!--- Footer Section --->
+    <section class="footer">
+      <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="FED_Books4School_website.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="game.html">Game</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form>
+          <input
+            type="email"
+            placeholder="Your Email Address"
+            class="footer-input"
+            required
+          />
+          <br />
+          <button type="submit" class="footer-btn">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+      <div class="col-3">
+        <h3>CONTACT</h3>
+        <p>123, Orchard Road, 743020<br />Singapore, IN</p>
+        <div class="social-icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>

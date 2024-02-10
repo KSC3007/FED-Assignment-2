@@ -1,0 +1,105 @@
+[
+    {
+        "id": 1,
+        "name":" O-Level Additional Math",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlAdditionalMathsYearly2023.jpg"
+    },
+    {
+        "id": 2,
+        "name":" O-Level Biology",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlBiologyYearly2023.jpg"
+    },
+    {
+        "id": 3,
+        "name":" O-level Chemistry",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlChemistryYearly2023.jpg"
+    },
+    {
+        "id": 4,
+        "name":" O-Level Chinese",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlChineseYearly2023.jpg"
+    },
+    {
+        "id": 5,
+        "name":" O-level English",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlEnglishYearly2023.jpg"
+    },
+    {
+        "id": 6,
+        "name":" O-Level Higher Chinese",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlHigherChineseYearly2023.jpg"
+    },
+    {
+        "id": 7,
+        "name":" O-Level Geography Elective",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlGeographyElectiveYearly2023.jpg"
+    },
+    {
+        "id": 8,
+        "name":" O-level History Elective",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlHistoryElectiveYearly2023.jpg"
+    },
+    {
+        "id": 9,
+        "name":" O-level History",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlHistoryYearly2023.jpg"
+    },
+    {
+        "id": 10,
+        "name":" O-level Mathematics",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlMathsYearly2023.jpg"
+    },
+    {
+        "id": 11,
+        "name":" O-level Physics",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlPhysicsYearly2023.jpg"
+    },
+    {
+        "id": 12,
+        "name":" O-level POA",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlPOAYearly2023.jpg"
+    },
+    {
+        "id": 13,
+        "name":" O-Level Science Biology",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlScienceBiologyYearly2023.jpg"
+    },
+    {
+        "id": 14,
+        "name":" O-Level Science Chemistry",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlScienceChemistryYearly2023.jpg"
+    },
+    {
+        "id": 15,
+        "name":" O-Level Science Physics",
+        "price": 15.99,
+        "image": "Shop_IMGs/OlvlSciencePhysicsYearly2023.jpg"
+    },
+    {
+        "id": 16,
+        "name":" O-level Chemistry Textbook",
+        "price": 15.99,
+        "image": "Shop_IMGs/chemisrty_chemistryTEXTBOOK.png"
+    },
+    {
+        "id": 17,
+        "name":" O-Level Biology Textbook",
+        "price": 15.99,
+        "image": "Shop_IMGs/biology_textbook.jpg"
+    }
+
+]
