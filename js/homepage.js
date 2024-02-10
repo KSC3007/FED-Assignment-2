@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (matchingUser) {
                     console.log('Login successful');
                     // Display a successful message to the user
-                    window.location.href = "profile.html";
+                    window.location.href = "FED_Books4School_website.html";
                     // Open the intended file if credentials are right
                 } else {
                     console.log('Invalid email or password');
